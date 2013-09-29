@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+   xmlns:android="http://schemas.android.com/apk/res/android">
+   <PreferenceCategory android:title="@string/game_label">
+      <ListPreference
+         android:key="boardsize"
+         android:title="@string/board_size"
+         android:entries="@array/entries_boardsize"
+         android:summary="@string/board_size_summary"
+         android:entryValues="@array/entryvalues_boardsize"
+         android:dialogTitle="@string/dialog_title_boardsize"
+         android:defaultValue="15"/>
+      <CheckBoxPreference
+         android:key="upperhand"
+         android:title="@string/upper_hand_title"
+         android:summary="@string/upper_hand_summary"
+         android:defaultValue="false" />
+   </PreferenceCategory>
+   <PreferenceCategory android:title="@string/cpu_label">
+      <ListPreference
+         android:key="difficulty"
+         android:title="@string/difficulty_title"
+         android:summary="@string/difficulty_summary"
+         android:entries="@array/entries_difficulty"
+         android:entryValues="@array/entryvalues_difficulty"
+         android:dialogTitle="@string/dialog_title_difficulty"
+         android:defaultValue="1"/>
+   </PreferenceCategory>
+   <PreferenceCategory android:title="@string/music_label">
+      <CheckBoxPreference
+         android:key="music"
+         android:title="@string/music_title"
+         android:summary="@string/music_summary"
+         android:defaultValue="true" />
+   </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Lianzhu</string>
+	<string name="main_title">Lianzhu</string>
+	<string name="continue_label">Continue</string>
+	<string name="new_game_label">New Game</string>
+	<string name="about_label">About</string>
+	<string name="exit_label">Exit</string>
+<string name="about_text">Lianzhu is an abstract strategy board game \
+and is also called "Five in a Row" or "Gomoku".\
+It is traditionally played with go pieces (black \
+and white stones) on a go board (19×19 intersections) ;\
+however,because once placed,pieces are not moved or \
+removed from the board,lianzhu may also be played as \
+a Paper and pencil game.</string>
+<string name="about_title">About Lianzhu</string>
+<string name="return_label">Return</string>
+<string name="settings_label">Settings</string>
+<string name="settings_shortcut">s</string>
+<string name="about_shortcut">a</string>
+<string name="exit_shortcut">e</string>
+<string name="board_size">Board Size</string>
+<string name="music_title">Music</string>
+<string name="music_summary">Play background music</string><string name="upper_hand_title">Upper Hand</string>
+
+<string name="upper_hand_summary">Player goes first</string>
+<string name="board_size_summary">Select board size</string>
+<string name="difficulty_title">Difficulty</string>
+<string name="difficulty_summary">Select difficulty of game</string>
+<string name="settings_title">Settings</string>
+<string name="dialog_title_difficulty">Choose difficulty of game</string>
+<string name="dialog_title_boardsize">Choose board size</string>
+<string name="game_label">Game</string>
+<string name="cpu_label">CPU Player</string>
+<string name="music_label">Music</string>
+<string name="Lianzhu_label">Lianzhu</string>
+<string name="new_game_shortcut">n</string>
+<string name="continue_shortcut">c</string>
+<string name="undo_shortcut">u</string>
+<string name="undo_label">Undo</string>
+<string name="game_over_label">Game Over</string>
+<string name="game_over_message">Play Again or Return ?</string>
+<string name="again_label">Again</string>
+<string name="game_draw">Game draw!</string>
+<string name="game_win">Congratulations,you win!</string>
+<string name="game_lose">Sorry,you lose!</string>
+<string name="single_label">Single Player</string>
+<string name="single_shortcut">s</string>
+<string name="multi_label">Multi Player</string>
+<string name="multi_shortcut">m</string>
+<string name="user_label">User:</string>
+<string name="password_label">Password:</string>
+<string name="login_shortcut">l</string>
+<string name="login_label">Login</string>
+<string name="user">admin</string>
+<string name="join_shortcut">j</string>
+<string name="join_label">Join</string>
+<string name="host_shortcut">h</string>
+<string name="host_label">Host</string>
+<string name="Ok">Ok</string>
+<string name="Cancel">Cancel</string>
+<string name="host_game">Host Game</string>
+<string name="room_number">Room Number:</string>
+<string name="player_name">Player:</string>
+<string name="no_player">No player</string>
+<string name="board_size_label">Board Size:</string>
+<string name="quit_label">Quit</string>
+<string name="start_label">Start</string>
+<string name="join_game">Join Game</string>
+<string name="start_shortcut">s</string>
+<string name="ready_shortcut">r</string>
+<string name="ready_label">Ready</string>
+</resources>

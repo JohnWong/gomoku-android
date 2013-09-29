@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:background="@color/background"
+   android:layout_height="fill_parent"
+   android:layout_width="fill_parent"
+   android:padding="30dip"
+   android:orientation="horizontal">
+   <LinearLayout
+      android:orientation="vertical"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:layout_gravity="center">
+      <TextView
+         android:text="@string/main_title"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginBottom="25dip"
+         android:textSize="24.5sp" />
+      <Button
+         android:id="@+id/single_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:alphabeticShortcut="@string/single_shortcut"
+         android:text="@string/single_label" />
+        <Button
+         android:id="@+id/multi_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:alphabeticShortcut="@string/multi_shortcut"
+         android:text="@string/multi_label" />
+      <Button
+         android:id="@+id/about_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:alphabeticShortcut="@string/about_shortcut"
+         android:text="@string/about_label" />
+      <Button
+         android:id="@+id/exit_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:alphabeticShortcut="@string/exit_shortcut"
+         android:text="@string/exit_label" />
+   </LinearLayout>
+</LinearLayout>

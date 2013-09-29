@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="background">#3500f0f0</color>
+   
+   <color name="game_background">#ffe6f0ff</color>
+   <color name="game_hilite">#ffffffff</color>
+   <color name="game_light">#64c6d4ef</color>
+   <color name="game_dark">#6456648f</color>
+   <color name="game_foreground">#ff000000</color>
+   <color name="game_hint_0">#64ff0000</color>
+   <color name="game_hint_1">#6400ff80</color>
+   <color name="game_hint_2">#2000ff80</color>
+   
+<color name="grid_line">#FF000000</color>
+<color name="grid_Line2">#FFaaaaaa</color>
+<color name="grid_background">#55ffff00</color>
+<color name="game_upperhand">#FF000000</color>
+<color name="game_nupperhand">#FFEEEEEE</color>
+</resources>
